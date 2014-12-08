@@ -1,8 +1,8 @@
 # Callback pluck
 
 Callback pluck is a callback generator with clean API for ES5 iterations methods.
-
-I wrote this code because I love `_.pluck` and want to use the same idea with ES5 iteration methods, which are supported in most environments.
+It allows you to use `_.pluck` idea in more clean way via generating required
+callbacks for iteration methods (`map`, `filter`, `every` and `some`).
 
 # Install
 
@@ -72,3 +72,8 @@ arr.some(p({ married: true })); // true
 arr.some(p({ name: 'Barney' })); // true
 arr.some(p({ sex: 'female' })); // false
 ```
+
+## Note
+
+Advanced filtering via property value _doesn't do deep equal_, It take only
+first property from `Object.keys(inputObject)` to keep logic clean and simple.
