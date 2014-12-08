@@ -1,0 +1,27 @@
+{
+  "name": "callback-pluck",
+  "version": "0.0.0",
+  "description": "Callback pluck is a callback generator with clean API for ES5 iterations methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matmuchrapna/callback-pluck.git"
+  },
+  "keywords": [
+    "pluck",
+    "callback"
+  ],
+  "author": "Vladimir Starkov <matmuchrapna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matmuchrapna/callback-pluck/issues"
+  },
+  "homepage": "https://github.com/matmuchrapna/callback-pluck",
+  "devDependencies": {
+    "mocha": "^2.0.1",
+    "should": "^4.3.0"
+  }
+}
