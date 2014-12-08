@@ -1,6 +1,6 @@
 {
   "name": "callback-pluck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Callback pluck is a callback generator with clean API for ES5 iterations methods.",
   "main": "index.js",
   "scripts": {
