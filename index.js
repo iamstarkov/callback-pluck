@@ -17,10 +17,10 @@ var objectPluck = function(comparator, negative, key, item) {
 module.exports = function(comparator, flag) {
   var negative = (flag === false) ? true : false;
 
-	if (typeof comparator === 'string') {
-		return simplePluck.bind(this, comparator, negative);
-	}
+  if (typeof comparator === 'string') {
+    return simplePluck.bind(this, comparator, negative);
+  }
 
-	var key = Object.keys(comparator)[0];
-	return objectPluck.bind(this, comparator, negative, key);
+  var key = Object.keys(comparator)[0];
+  return objectPluck.bind(this, comparator, negative, key);
 };
