@@ -1,6 +1,6 @@
 # Callback pluck
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url] [![DevDependency Status][depstat-dev-image]][depstat-dev-url]
 
 
 Callback pluck is a callback generator with clean API for ES5 iterations methods.
@@ -93,3 +93,6 @@ first property from `Object.keys(inputObject)` to keep logic clean and simple.
 
 [depstat-url]: https://david-dm.org/matmuchrapna/callback-pluck
 [depstat-image]: http://img.shields.io/david/matmuchrapna/callback-pluck.svg?style=flat
+
+[depstat-dev-url]: https://david-dm.org/matmuchrapna/callback-pluck
+[depstat-dev-image]: http://img.shields.io/david/dev/matmuchrapna/callback-pluck.svg?style=flat
