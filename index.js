@@ -15,7 +15,7 @@ var objectPluck = function(comparator, negative, key, item) {
 };
 
 module.exports = function(comparator, flag) {
-  var negative = (flag === false) ? true : false;
+  var negative = (flag === false);
 
   if (typeof comparator === 'string') {
     return simplePluck.bind(this, comparator, negative);
