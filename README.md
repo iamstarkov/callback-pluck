@@ -1,5 +1,8 @@
 # Callback pluck
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url]
+
+
 Callback pluck is a callback generator with clean API for ES5 iterations methods.
 It allows you to use `_.pluck` idea in more clean way via generating required
 callbacks for iteration methods (`map`, `filter`, `every` and `some`).
@@ -77,3 +80,16 @@ arr.some(p({ sex: 'female' })); // false
 
 Advanced filtering via property value _doesn't do deep equal_, It take only
 first property from `Object.keys(inputObject)` to keep logic clean and simple.
+
+
+[npm-url]: https://npmjs.org/package/callback-pluck
+[npm-image]: http://img.shields.io/npm/v/callback-pluck.svg?style=flat
+
+[travis-url]: https://travis-ci.org/matmuchrapna/callback-pluck
+[travis-image]: http://img.shields.io/travis/matmuchrapna/callback-pluck.svg?style=flat
+
+[coveralls-url]: https://coveralls.io/r/matmuchrapna/callback-pluck
+[coveralls-image]: http://img.shields.io/coveralls/matmuchrapna/callback-pluck.svg?style=flat
+
+[depstat-url]: https://david-dm.org/matmuchrapna/callback-pluck
+[depstat-image]: http://img.shields.io/david/matmuchrapna/callback-pluck.svg?style=flat
