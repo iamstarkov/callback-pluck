@@ -4,7 +4,8 @@
   "description": "Callback pluck is a callback generator with clean API for ES5 iterations methods.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test"
+    "test": "mocha -R spec test",
+    "prepush": "npm test"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/matmuchrapna/callback-pluck",
   "devDependencies": {
+    "husky": "^0.6.2",
     "mocha": "^2.0.1",
     "should": "^4.3.0"
   }
