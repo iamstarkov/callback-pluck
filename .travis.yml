@@ -1,5 +1,8 @@
- language: node_js
- node_js:
-   - "0.10"
+language: node_js
+node_js:
+ - "0.10"
 after_script:
-  - npm run coveralls
+ - cat lcov.info | codeclimate
+addons:
+ code_climate:
+  repo_token: 87c556496393a7f1472f8764a09dc932778d44c3a7ec372ad3980f358492a41c
