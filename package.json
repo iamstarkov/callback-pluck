@@ -4,8 +4,8 @@
   "description": "Callback pluck is a callback generator with clean API for ES5 iterations methods.",
   "main": "index.js",
   "scripts": {
-    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "test": "mocha -R spec test",
+    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
     "prepush": "npm test"
   },
   "repository": {
