@@ -4,8 +4,9 @@
   "description": "Use callback-pluck instead of `_.pluck`",
   "main": "index.js",
   "scripts": {
-    "test": "mocha -R spec test",
-    "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage",
+    "coverage": "istanbul cover _mocha",
+    "precoveralls": "npm run coverage",
+    "coveralls": "coveralls < coverage/lcov.info",
     "prepush": "npm test"
   },
   "repository": {
