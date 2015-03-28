@@ -87,6 +87,10 @@ Advanced filtering via property value _doesn't do deep equal_, It take only
 first property from `Object.keys(inputObject)` to keep logic clean and simple.
 
 
+## License
+
+MIT © [Vladimir Starkov](http://vstarkov.com/)
+
 [npm-url]: https://npmjs.org/package/callback-pluck
 [npm-image]: http://img.shields.io/npm/v/callback-pluck.svg
 
