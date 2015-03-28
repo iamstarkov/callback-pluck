@@ -3,10 +3,10 @@ var p = require('./index.js');
 
 describe('Callback pluck with', function() {
   var arr = [
-    { 'name': 'Barney',  'age': 36, sex: 'male', married: true },
-    { 'name': 'Fred',    'age': 40, sex: 'male', married: true },
-    { 'name': 'Glenn',   'age': 22, sex: 'male', married: false },
-    { 'name': 'Stephen', 'age': 22, sex: 'male', married: true }
+    { name: 'Barney',  age: 36, sex: 'male', married: true },
+    { name: 'Fred',    age: 40, sex: 'male', married: true },
+    { name: 'Glenn',   age: 22, sex: 'male', married: false },
+    { name: 'Stephen', age: 22, sex: 'male', married: true }
   ];
 
   it('[ ].map', function() {
@@ -15,12 +15,12 @@ describe('Callback pluck with', function() {
   });
 
   it('[ ].filter', function() {
-      arr.filter(p('married')).should.eql([arr[0], arr[1], arr[3]]);
-      arr.filter(p('married', false)).should.eql([arr[2]]);
+    arr.filter(p('married')).should.eql([arr[0], arr[1], arr[3]]);
+    arr.filter(p('married', false)).should.eql([arr[2]]);
 
-      arr.filter(p({ age: 22 })).should.eql([arr[2], arr[3]]);
-      arr.filter(p({ age: 22 }, false)).should.eql([arr[0], arr[1]]);
-      arr.filter(p({ name: 'Stephen' }, false)).should.eql([arr[0], arr[1], arr[2]]);
+    arr.filter(p({ age: 22 })).should.eql([arr[2], arr[3]]);
+    arr.filter(p({ age: 22 }, false)).should.eql([arr[0], arr[1]]);
+    arr.filter(p({ name: 'Stephen' }, false)).should.eql([arr[0], arr[1], arr[2]]);
   });
 
   it('[ ].every', function() {
