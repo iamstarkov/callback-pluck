@@ -9,6 +9,7 @@
     "coveralls": "coveralls < coverage/lcov.info",
     "pretest": "jscs -p airbnb *.js",
     "test": "mocha",
+    "tdd": "mocha --watch",
     "precommit": "npm test",
     "prepush": "npm test"
   },
