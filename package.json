@@ -29,9 +29,9 @@
   "homepage": "https://github.com/matmuchrapna/callback-pluck",
   "devDependencies": {
     "coveralls": "^2.11.2",
-    "husky": "^0.6.2",
+    "husky": "^0.7.0",
     "istanbul": "^0.3.5",
     "mocha": "^2.2.1",
-    "mocha-lcov-reporter": "0.0.1"
+    "mocha-lcov-reporter": "0.0.2"
   }
 }
