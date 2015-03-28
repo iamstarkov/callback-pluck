@@ -6,7 +6,7 @@
 [![Dependency Status][depstat-image]][depstat-url]
 [![DevDependency Status][depstat-dev-image]][depstat-dev-url]
 
-
+> Use callback-pluck instead of `_.pluck`
 
 Callback pluck is a callback generator with clean API for ES5 iterations methods.
 It allows you to use `_.pluck` idea in more clean way via generating required

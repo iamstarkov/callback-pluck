@@ -1,7 +1,7 @@
 {
   "name": "callback-pluck",
   "version": "0.1.2",
-  "description": "Callback pluck is a callback generator with clean API for ES5 iterations methods.",
+  "description": "Use callback-pluck instead of `_.pluck`",
   "main": "index.js",
   "scripts": {
     "test": "mocha -R spec test",
