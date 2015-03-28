@@ -7,6 +7,9 @@
     "coverage": "istanbul cover _mocha",
     "precoveralls": "npm run coverage",
     "coveralls": "coveralls < coverage/lcov.info",
+    "pretest": "jscs -p airbnb *.js",
+    "test": "mocha",
+    "precommit": "npm test",
     "prepush": "npm test"
   },
   "repository": {
