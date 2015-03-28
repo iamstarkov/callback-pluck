@@ -1,5 +1,6 @@
-require('should');
 var p = require('./index.js');
+var deepEqual = require('assert').deepEqual;
+var ok = require('assert').ok;
 
 describe('Callback pluck with', function() {
   var arr = [
@@ -10,31 +11,31 @@ describe('Callback pluck with', function() {
   ];
 
   it('[ ].map', function() {
-    arr.map(p('name')).should.eql(['Barney', 'Fred', 'Glenn', 'Stephen']);
-    arr.map(p('age')).should.eql([36, 40, 22, 22]);
+    deepEqual(arr.map(p('name')), ['Barney', 'Fred', 'Glenn', 'Stephen']);
+    deepEqual(arr.map(p('age')), [36, 40, 22, 22]);
   });
 
   it('[ ].filter', function() {
-    arr.filter(p('married')).should.eql([arr[0], arr[1], arr[3]]);
-    arr.filter(p('married', false)).should.eql([arr[2]]);
+    deepEqual(arr.filter(p('married')), [arr[0], arr[1], arr[3]]);
+    deepEqual(arr.filter(p('married', false)), [arr[2]]);
 
-    arr.filter(p({ age: 22 })).should.eql([arr[2], arr[3]]);
-    arr.filter(p({ age: 22 }, false)).should.eql([arr[0], arr[1]]);
-    arr.filter(p({ name: 'Stephen' }, false)).should.eql([arr[0], arr[1], arr[2]]);
+    deepEqual(arr.filter(p({ age: 22 })), [arr[2], arr[3]]);
+    deepEqual(arr.filter(p({ age: 22 }, false)), [arr[0], arr[1]]);
+    deepEqual(arr.filter(p({ name: 'Stephen' }, false)), [arr[0], arr[1], arr[2]]);
   });
 
   it('[ ].every', function() {
-    arr.every(p('married')).should.false;
+    ok(!arr.every(p('married')));
 
-    arr.every(p({ sex: 'male' })).should.true;
-    arr.every(p({ married: true })).should.false;
+    ok(arr.every(p({ sex: 'male' })));
+    ok(!arr.every(p({ married: true })));
   });
 
   it('[ ].some', function() {
-    arr.some(p('married')).should.true;
-    arr.some(p({ married: true })).should.true;
-    arr.some(p({ name: 'Barney' })).should.true;
-    arr.some(p({ sex: 'female' })).should.false;
+    ok(arr.some(p('married')));
+    ok(arr.some(p({ married: true })));
+    ok(arr.some(p({ name: 'Barney' })));
+    ok(!arr.some(p({ sex: 'female' })));
   });
 
 });
