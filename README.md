@@ -1,6 +1,11 @@
-# Callback pluck
+# callback-pluck
 
-[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Dependency Status][depstat-image]][depstat-url] [![DevDependency Status][depstat-dev-image]][depstat-dev-url]
+[![NPM version][npm-image]][npm-url]
+[![Build Status][travis-image]][travis-url]
+[![Coveralls Status][coveralls-image]][coveralls-url]
+[![Dependency Status][depstat-image]][depstat-url]
+[![DevDependency Status][depstat-dev-image]][depstat-dev-url]
+
 
 
 Callback pluck is a callback generator with clean API for ES5 iterations methods.
@@ -83,16 +88,16 @@ first property from `Object.keys(inputObject)` to keep logic clean and simple.
 
 
 [npm-url]: https://npmjs.org/package/callback-pluck
-[npm-image]: http://img.shields.io/npm/v/callback-pluck.svg?style=flat
+[npm-image]: http://img.shields.io/npm/v/callback-pluck.svg
 
 [travis-url]: https://travis-ci.org/matmuchrapna/callback-pluck
-[travis-image]: http://img.shields.io/travis/matmuchrapna/callback-pluck.svg?style=flat
+[travis-image]: http://img.shields.io/travis/matmuchrapna/callback-pluck.svg
 
 [coveralls-url]: https://coveralls.io/r/matmuchrapna/callback-pluck
-[coveralls-image]: http://img.shields.io/coveralls/matmuchrapna/callback-pluck.svg?style=flat
+[coveralls-image]: http://img.shields.io/coveralls/matmuchrapna/callback-pluck.svg
 
 [depstat-url]: https://david-dm.org/matmuchrapna/callback-pluck
-[depstat-image]: http://img.shields.io/david/matmuchrapna/callback-pluck.svg?style=flat
+[depstat-image]: https://david-dm.org/matmuchrapna/callback-pluck.svg
 
 [depstat-dev-url]: https://david-dm.org/matmuchrapna/callback-pluck
-[depstat-dev-image]: http://img.shields.io/david/dev/matmuchrapna/callback-pluck.svg?style=flat
+[depstat-dev-image]: https://david-dm.org/matmuchrapna/callback-pluck/dev-status.svg
