@@ -94,19 +94,19 @@ first property from `Object.keys(inputObject)` to keep logic clean and simple.
 
 ## License
 
-MIT © [Vladimir Starkov](http://vstarkov.com/)
+MIT © [Vladimir Starkov](http://iamstarkov.com/)
 
 [npm-url]: https://npmjs.org/package/callback-pluck
 [npm-image]: http://img.shields.io/npm/v/callback-pluck.svg
 
-[travis-url]: https://travis-ci.org/matmuchrapna/callback-pluck
-[travis-image]: http://img.shields.io/travis/matmuchrapna/callback-pluck.svg
+[travis-url]: https://travis-ci.org/iamstarkov/callback-pluck
+[travis-image]: http://img.shields.io/travis/iamstarkov/callback-pluck.svg
 
-[coveralls-url]: https://coveralls.io/r/matmuchrapna/callback-pluck
-[coveralls-image]: http://img.shields.io/coveralls/matmuchrapna/callback-pluck.svg
+[coveralls-url]: https://coveralls.io/r/iamstarkov/callback-pluck
+[coveralls-image]: http://img.shields.io/coveralls/iamstarkov/callback-pluck.svg
 
-[depstat-url]: https://david-dm.org/matmuchrapna/callback-pluck
-[depstat-image]: https://david-dm.org/matmuchrapna/callback-pluck.svg
+[depstat-url]: https://david-dm.org/iamstarkov/callback-pluck
+[depstat-image]: https://david-dm.org/iamstarkov/callback-pluck.svg
 
-[depstat-dev-url]: https://david-dm.org/matmuchrapna/callback-pluck
-[depstat-dev-image]: https://david-dm.org/matmuchrapna/callback-pluck/dev-status.svg
+[depstat-dev-url]: https://david-dm.org/iamstarkov/callback-pluck
+[depstat-dev-image]: https://david-dm.org/iamstarkov/callback-pluck/dev-status.svg
