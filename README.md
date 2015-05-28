@@ -12,6 +12,13 @@ Callback pluck is a callback generator with clean API for ES5 iterations methods
 It allows you to use `_.pluck` idea in more clean way via generating required
 callbacks for iteration methods (`map`, `filter`, `every` and `some`).
 
+## Deprecation note
+
+Use es6 arrow functions instead, they are native and simpler solution.
+
+    arr.map(p('age'));    // [36, 40, 22, 22]
+    arr.map(i => i.age);  // [36, 40, 22, 22]
+
 ## Install
 
 ```bash
