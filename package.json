@@ -17,18 +17,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:matmuchrapna/callback-pluck.git"
+    "url": "git@github.com:iamstarkov/callback-pluck.git"
   },
   "keywords": [
     "pluck",
     "callback"
   ],
-  "author": "Vladimir Starkov <matmuchrapna@gmail.com>",
+  "author": "Vladimir Starkov <iamstarkov@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/matmuchrapna/callback-pluck/issues"
+    "url": "https://github.com/iamstarkov/callback-pluck/issues"
   },
-  "homepage": "https://github.com/matmuchrapna/callback-pluck",
+  "homepage": "https://github.com/iamstarkov/callback-pluck#readme",
   "devDependencies": {
     "coveralls": "^2.11.2",
     "husky": "^0.7.0",

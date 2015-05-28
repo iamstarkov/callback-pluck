@@ -12,13 +12,11 @@ Callback pluck is a callback generator with clean API for ES5 iterations methods
 It allows you to use `_.pluck` idea in more clean way via generating required
 callbacks for iteration methods (`map`, `filter`, `every` and `some`).
 
-
 ## Install
 
 ```bash
 npm install --save-dev callback-pluck
 ```
-
 
 ## Usage
 
@@ -66,7 +64,6 @@ arr.filter(p({ age: 22 }, false)); // [{ 'name': 'Barney',  'age': 36, … },
                                    //  { 'name': 'Fred',    'age': 40, … }]
 ```
 
-
 ## Callback pluck with `[ ].every`
 
 ```
@@ -74,7 +71,6 @@ arr.every(p('married')); // false
 arr.every(p({ sex: 'male' })); // true
 arr.every(p({ married: true })); // false
 ```
-
 
 ## Callback pluck with `[ ].some`
 
