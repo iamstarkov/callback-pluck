@@ -1,6 +1,6 @@
 {
   "name": "callback-pluck",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Use callback-pluck instead of `_.pluck`",
   "main": "index.js",
   "scripts": {
